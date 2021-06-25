@@ -1,0 +1,42 @@
+.App-header {
+  background-color: #222;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  padding: 20px 40% 20px 5%;
+}
+
+.App-header h1,
+.App-header h2 {
+  cursor: pointer;
+}
+
+.App-header > h1 {
+  color: dodgerblue;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+h2 {
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  margin: 5px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
